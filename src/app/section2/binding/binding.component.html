@@ -1,0 +1,11 @@
+<div class="input">
+    <input type="text" [(ngModel)]="username">
+</div>
+<p class="output">
+    {{username}}
+</p>
+<div class="btn">
+    <button [disabled]="username===''" (click)="Reset()">
+        RESET
+    </button>
+</div>
