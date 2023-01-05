@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BindingComponent } from './section2/binding/binding.component';
+import { DirectivesAssignmentComponent } from './section2/directives-assignment/directives-assignment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BindingComponent
+    BindingComponent,
+    DirectivesAssignmentComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<button (click)="toggle()">Show Details</button>
+<p *ngIf="showPara">Hello sir! This is *ngIf</p>
+<div class="list">
+    <p *ngFor="let timestamp of btnClicked" [ngStyle]="{backgroundColor: timestamp>=5?'blue':'white'}" 
+        [ngClass]="{whiteText: timestamp>=5}">
+       button clicked {{timestamp}} times
+    </p>
+</div>
